@@ -1,0 +1,77 @@
+@font-face {
+  font-family: Oblik;
+  src: url("fonts/Oblik-Bold.otf");
+}
+
+body {
+  background: url("./assests//backgroundImage1.jpg") no-repeat center center
+    fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: Oblik;
+  src: url("fonts/Oblik-Bold.otf");
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: Oblik;
+  src: url("fonts/Oblik-Bold.otf");
+}
+
+.wifi {
+  color: #19676b;
+  font-size: 30px;
+  text-align: center;
+  margin-left: 0px;
+}
+
+.text {
+  font-size: 14px;
+  margin-top: 170px;
+  color: aliceblue;
+  width: 230px;
+  text-shadow: 1px 1px #000000;
+  margin-bottom: 40px;
+  font-family: Oblik;
+  src: url("fonts/Oblik-Bold.otf");
+}
+
+.text a {
+  color: aliceblue;
+}
+
+.btn-1 {
+  font-size: 18px;
+  background-color: #19676b;
+  padding: 28px 160px;
+  color: aliceblue;
+  border: 0;
+  border-radius: 20px;
+  word-spacing: normally;
+  font-family: Oblik;
+  src: url("fonts/Oblik-Bold.otf");
+}
+
+.btn-1:hover {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .wifi {
+    font-size: 20px;
+  }
+
+  .btn-1 {
+    padding: 14px 80px;
+  }
+}

@@ -1,0 +1,37 @@
+body{
+    font-family: Oblik;
+    src: url("fonts/Oblik-Bold.otf");
+    padding: 5px 40px;
+    text-align: justify;
+}
+
+.headline{
+    color: #19676B;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.back{
+    padding: 10px 40px;
+    color:aliceblue;
+    background-color: #19676B;
+    border: 0;
+    border-radius: 20px;
+}
+
+.back:hover{
+    cursor: pointer;
+}
+
+body a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+    body{
+        padding: 5px 10px;
+    }
+
+  }
