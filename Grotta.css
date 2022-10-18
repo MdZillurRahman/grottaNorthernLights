@@ -32,11 +32,11 @@ body {
 
 .text {
   font-size: 14px;
-  margin-top: 170px;
+  margin-top: 150px;
   color: aliceblue;
-  width: 230px;
+  width: 270px;
   text-shadow: 1px 1px #000000;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
   font-family: Oblik;
   src: url("fonts/Oblik-Bold.otf");
 }
